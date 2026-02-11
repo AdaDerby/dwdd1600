@@ -1,0 +1,121 @@
+/* This is the start of my css. */
+body {
+font-family: 'Oxygen', sans-serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0;
+}
+
+/* This is the header stuff. */
+header {
+background-color:#efebeb;
+padding: 1rem 2vw;
+
+}
+
+header span { 
+    margin: 0;
+    color: #678eae;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+
+/* This is the navigation stuff. */
+nav {
+    background-color: #f2b705;
+}
+
+nav ul { 
+list-style-type: none; 
+padding: 0 2vw;
+margin: 0;
+display: flex;
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #678eae;
+    font-weight: 700;
+    display: block;
+    padding: .8rem 2rem;
+}
+
+nav li.active a {
+    background-color: #678eae;
+    color: #f2b705;
+}
+
+nav a:hover {
+    color: beige;
+}
+
+
+/* This is the main stuff. */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 { 
+    color: rgb(214, 84, 112)
+}
+
+main h2 { 
+    color: #678eae;
+    margin-bottom: .2rem;
+}
+
+main p{ 
+    color: #333;
+    margin: 0;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color:#efebeb;
+    list-style-type:lower-roman;
+}
+
+main dl dt{ 
+    color: rgb(214, 84, 112);
+    font-weight: 700;
+
+}
+
+main dl dd {
+    color: #41617b;
+    font-size: .9rem;
+    margin-left: 20px;
+
+}
+
+main ul {
+    list-style-type: circle;
+
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 3px solid #41617b;
+    border-radius: .5rem;
+}
+
+/* This is the footer stuff. */
+
+footer {
+    background-color: #efebeb;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
