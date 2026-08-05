@@ -1,0 +1,134 @@
+/* This is the start of my css. */
+body {
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* This is the header stuff. */
+header {
+    background-color: #f8f4ea;
+    padding: 1rem 2vw;
+}
+
+header span{
+    margin: 0;
+    color: #cc7025;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/* This is the navigation stuff. */
+nav {
+    background-color: #969619;
+}
+
+nav ul{
+list-style-type: none;
+padding: 0 2vw;
+margin: 0;
+display: flex;
+}
+
+nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f8f4ea;
+    font-weight: 700;
+    display: block;
+    padding: .8rem 2rem;
+}
+
+nav li.active a{
+    background-color: #6b6b12;
+    color: #969619;
+}
+
+nav a:hover{
+    color: #6b6b12;
+}
+
+/* This is the main stuff. */
+
+main {
+    background-color: #f8f4ea;
+    padding: 1rem 2vw;
+}
+
+main h1{
+    color: #86b2a1;
+    text-align: center;
+    border: 4px solid #86b2a1;
+    border-radius: .8rem;
+    padding: .5rem;
+    background-color: #c6d7c5;
+}
+
+main h2{
+    color: #644427;
+    margin-bottom: .2rem;
+}
+
+main h3{
+    color: #cc7025;
+}
+
+main p{
+    color: #644427;
+    margin: .8rem;
+}
+
+main .blurb {
+    background-color: #d6c6a1a5;
+    font-weight: 400;
+    font-size: large;
+    padding: 1rem 2vw;
+    margin-right: 60vw;
+    margin-bottom: 1rem;
+    
+}
+
+main dl{
+    margin-left: .8rem;
+}
+
+main dl dt{
+    color: #644427;
+    font-weight: 400;
+    margin-bottom: .8rem;
+}
+
+main dl dd{
+    color: #644427;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-left: 20px;
+    padding: .2rem;
+}
+
+main ul{
+    list-style-type: "-";
+    color: #644427;
+}
+
+main ul li{
+    padding: .5rem;
+    font-weight: 400;
+}
+
+main address{
+    color: #644427;
+    font-style: normal;
+    padding: .5rem;
+    font-weight: 400;
+}
+
+/* This is the footer stuff. */
+
+footer {
+    background-color: #c6d7c5;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
