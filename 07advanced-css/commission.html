@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ada Derby">
+    <meta name="description" content="Discover the graphic design works of Ada Derby">
+    <title>Ada Derby - Graphic Designer</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+<!-- This is the Header Section -->
+<header>
+    <img src="Images/web-logo.png" alt="logo" width="33" height="30">
+
+    <span>
+        Ada Derby
+    </span>
+    
+</header>
+
+<!-- This is the Navigation Section -->
+<nav>
+    <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="commission.html">Commission</a></li>
+    </ul>
+</nav>
+
+<!-- This is the Main Section -->
+<main>
+
+    <h3>Commission Request Form</h3>
+    <p>If you are interested in commissioning me, please fill out this form.</p>
+
+    <form method="get" class="commission" action="thanks.html">
+
+    <fieldset>
+        <legend>Customer Info</legend>
+
+        <label>First Name</label><input type="text" name="fname" required>
+        <label>Last Name</label><input type="text" name="lname" required>
+        <label>Email</label><input type="email" name="email" required>
+        <label>Cell Number</label><input type="tel" name="phone" required placeholder="000-000-0000">
+    </fieldset>
+
+    <fieldset>
+        <legend>Commission Type</legend>
+
+        <label><input type="radio" name="type" value="logo">Brand Logo</label>
+        <label><input type="radio" name="type" value="poster">Poster</label>
+        <label><input type="radio" name="type" value="packaging">Packaging</label>
+        <label><input type="radio" name="type" value="photography">Photography</label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Artwork Specifications</legend>
+
+        <label><input type="checkbox" name="mockup" value="yes">Mockup</label>
+        <label><input type="checkbox" name="printout" value="yes">Printout</label>
+        <label><input type="checkbox" name="full presentation" value="yes">Full Presentation</label>
+        
+        <label>Timeframe<select name="timeframe">
+            <option value="none">Please Select</option>
+            <option value="two weeks">two weeks</option>
+            <option value="one month">one month</option>
+            <option value="two months">two months</option>
+        </select></label>
+    </fieldset>
+
+        <label>Please give a summary of what you would like:<textarea name="summary" required></textarea></label>
+
+        <input type="submit" value="Send Commission Request">
+
+    </form>
+
+</main>
+
+<!-- This is the Footer Section -->
+<footer>
+     <p>&copy; 2026 | Ada Derby &bull; All Rights Reserved &bull; <a href="https://www.instagram.com/ada.derby/" target="_blank" rel="noopener noreferrer">Instagram</a> <a href="https://www.behance.net/adaderby1" target="_blank" rel="noopener noreferrer">Behance</a></p>
+</footer>
+
+</body>
+</html>
